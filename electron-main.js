@@ -25,7 +25,7 @@ const defaultProjectURL = new URL('./index.html', resourcesURL).href;
 
 const createWindow = (windowOptions) => {
   const options = {
-    title: "Clicker | By Martin",
+    title: "Money Clicker",
     icon: path.resolve(__dirname, "icon.png"),
     useContentSize: true,
     webPreferences: {
